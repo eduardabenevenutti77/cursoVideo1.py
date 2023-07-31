@@ -1,0 +1,1 @@
+#leia o 1º termo e a razão de uma PA, no final mostre os 10 primeiros termos dessa progressão

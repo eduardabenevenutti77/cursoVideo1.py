@@ -1,0 +1,1 @@
+#leia um número inteiro e diga se é ou não primo

@@ -1,0 +1,1 @@
+#mostre a tabuada de um número usando o laço for

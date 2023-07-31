@@ -1,0 +1,1 @@
+#leia 6 números inteiros e mostre somente os pares, se o valor foi impar desconsidere-o
