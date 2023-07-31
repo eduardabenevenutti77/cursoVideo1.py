@@ -3,18 +3,23 @@
 
 print('\n\t Calcule o seu IMC!')
 
-peso = float(input('\n Informe o seu peso => '))
+peso = float(input('\n Informe o seu peso (kg) => '))
 altura = float(input('\n Informe a sua altura => '))
 
-IMC = (peso/altura)
+IMC = peso/(altura**2)
 
 if IMC<18.5:
-    print('\n Você está abaixo do peso..')
-elif 18.8<IMC<24:
-    print('\n Você está no peso ideal..')
-elif 25<IMC<30:
-    print('\n Você está em sobrepesso..')
-elif 30<IMC<40:
-    print('\n Você está com obesidade..')
-elif IMC>40:
-    print('\n Você está com obesidade mórbida..')
+    print('\n O seu IMC é de {:.1f}'.format(IMC))
+    print(' Você está abaixo do peso..')
+elif 18.5<=IMC<24:
+    print('\n O seu IMC é de {:.1f}'.format(IMC))
+    print(' Você está no peso ideal..')
+elif 25<=IMC<30:
+    print('\n O seu IMC é de {:.1f}'.format(IMC))
+    print(' Você está em sobrepesso..')
+elif 30<=IMC<40:
+    print('\n O seu IMC é de {:.1f}'.format(IMC))
+    print(' Você está com obesidade..')
+elif IMC>=40:
+    print('\n O seu IMC é de {:.1f}'.format(IMC))
+    print(' Você está com obesidade mórbida..')
