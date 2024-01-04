@@ -1,0 +1,1 @@
+#crie uma tupla com várias palavras (não pode usar acentos). depois disso, mostre para cada palavra, quais são as suas vogais

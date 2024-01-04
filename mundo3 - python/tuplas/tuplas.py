@@ -8,3 +8,26 @@
 # estrutura de repetição dentro da tupla 
     #for nome_variável_for in nome_tupla:
         #print(nome_variável_for)
+#tupla -> lanche = ('abacate','limão','uva')
+#print(lanche[1]) - mostra a o lanche na 1ª posição (limão)
+
+lanche = ('abacate', 'limao', 'uva', 'abacaxi')
+print(lanche[1])
+print(lanche[2:])
+print(lanche[-1:])
+print(lanche)
+
+#mostrando os elementos da tupla dentro de uma estrutura de repetição for
+for comida in lanche:
+    print(f'eu vou comer {comida}')
+    
+print(len(lanche)) #mostra o tamanho da tupla
+
+#mostrando usando cont e range com o tamanho da tupla
+for cont in range(0, len(lanche)):
+    print(lanche[cont])
+       
+#organiza os elementos da tupla em ordem
+print(sorted(lanche))
+
+#tuplas são imutáveis
