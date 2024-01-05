@@ -3,7 +3,7 @@
 
 valores = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quartoze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 
-valor_usuario = int(input('Informe um valor entre 0 a 20: '))
+valor_usuario = int(input('Informe um valor entre 0 à 20: '))
 
 if 0 <= valor_usuario <= 20:
     print('O valor informado pelo o usuário é: {}'.format(valores[valor_usuario]))
