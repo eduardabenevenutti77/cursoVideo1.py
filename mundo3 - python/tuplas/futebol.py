@@ -16,3 +16,5 @@ if opcao == '1':
     print('Os 5 primeiros colocados: ')
     for equipe in range (5):
         print(equipe[times])
+elif opcao == '2':
+    print('')
