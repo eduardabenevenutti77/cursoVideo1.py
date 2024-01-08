@@ -22,3 +22,11 @@ elif opcao == '3':
     print('Listando os times em ordem alfabética: ')
     time = sorted(times)
     print(time)
+elif opcao == '4':
+    print('Posição do time da chapecoense: ')
+    chape = times.index('chapecoense') + 1
+    print('A posição do tima da chapecoense é {}'.format(chape)')
+else:
+    print('A opção informada é inválida!')
+    
+    
