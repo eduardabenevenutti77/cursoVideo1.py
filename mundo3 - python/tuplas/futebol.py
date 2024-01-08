@@ -17,4 +17,5 @@ if opcao == '1':
     for equipe in range (5):
         print(equipe[times])
 elif opcao == '2':
-    print('')
+    print('Os 5 últimos colocados: ')
+    print(times[-5])
