@@ -14,8 +14,11 @@ opcao = str(input('Informe a opcão selecionada => '))
 
 if opcao == '1':
     print('Os 5 primeiros colocados: ')
-    for equipe in range (5):
-        print(equipe[times])
+    print(times[0:5])
 elif opcao == '2':
     print('Os 5 últimos colocados: ')
-    print(times[-5])
+    print(times[-5:])
+elif opcao == '3':
+    print('Listando os times em ordem alfabética: ')
+    time = sorted(times)
+    print(time)
