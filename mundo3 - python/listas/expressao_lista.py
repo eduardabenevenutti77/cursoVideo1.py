@@ -1,0 +1,2 @@
+# o usuário deve digitar uma expressão matemática que use parênteses, e o sistema deverá analisar se a expressão passada está correta ou não
+# no caso, se os parênteses estão abertos e fechados na ordem certa
